@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">zdarz2</string>
+    <string name="btn1">+1</string>
+    <string name="btn2">-1</string>
+    <string name="btnr">reset</string>
 </resources>

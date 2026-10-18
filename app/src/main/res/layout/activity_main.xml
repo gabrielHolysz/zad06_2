@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="62dp"
             android:background="#58ADE4"
@@ -31,20 +31,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="+1" />
+                android:text="@string/btn1"
+                />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="-1" />
+                android:text="@string/btn2" />
         </LinearLayout>
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reset" />
+            android:text="@string/btnr"
+            android:onClick="onClickreset"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
