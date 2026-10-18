@@ -19,6 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="62dp"
             android:background="#58ADE4"
+            android:gravity="bottom|center"
+            android:textSize="34sp"
             android:text="TextView" />
 
         <LinearLayout
